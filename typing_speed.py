@@ -8,7 +8,6 @@ def words_per_minute(typed_text: str, seconds: float) -> float:
 
 
 def error_percentage(original: str, typed: str) -> float:
-    """Calculate the percentage of character errors."""
     if not original and not typed:
         return 0.0
 
@@ -32,7 +31,7 @@ def accuracy(original: str, typed: str) -> float:
 def typing_report(
     original: str, typed: str, seconds: float
 ) -> dict:
-    """Return a complete typing performance report."""
+    
     return {
         "words_per_minute": words_per_minute(typed, seconds),
         "error_percentage": error_percentage(original, typed),

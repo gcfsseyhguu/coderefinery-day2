@@ -1,5 +1,5 @@
 
-from typing import typing_report
+from typing_spee import typing_report
 
 
 def main():

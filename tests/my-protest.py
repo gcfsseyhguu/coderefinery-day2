@@ -1,7 +1,7 @@
 
 import pytest
 
-from typing import (
+from typing_spee import (
     words_per_minute,
     error_percentage,
     accuracy,
