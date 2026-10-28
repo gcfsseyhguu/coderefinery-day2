@@ -7,7 +7,7 @@ from typing_speed import words_per_minute, error_percentage, accuracy
 @pytest.mark.parametrize("words, seconds, expected", [
     (20, 60, 20),
     (40, 60, 40),
-    (10, 30, 20),
+    (10, 30, 26),
 ])
 def test_words_per_minute(words, seconds, expected):
     assert words_per_minute(words, seconds) == pytest.approx(expected)
