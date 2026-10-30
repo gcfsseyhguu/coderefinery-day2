@@ -12,6 +12,4 @@ def error_percentage(errors, total):
 
 
 def accuracy(errors, total):
-    if errors ==0:
-        return 99
-    return 100 - error_percentage(errors, total)
+  return 100 - error_percentage(errors, total)
